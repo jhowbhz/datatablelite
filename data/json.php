@@ -1,23 +1,23 @@
 <?php
 // conexão do banco
 $conn_banco = array(
-	'user' => 'username',
-	'pass' => 'password',
-	'db'   => 'db_17042017',
-	'host' => 'app.sulamericanaseguroauto.com.br'
+	'user' => 'USUARIO',
+	'pass' => 'SENHA',
+	'db'   => 'BANCO',
+	'host' => 'HOST'
 	);
 
 // tabela utilizada
-$tbl_banco = 'tbl_cadastro';
+$tbl_banco = 'SUA TABELA NO BANCO ';
 
 // Primary key
-$tbl_key = 'id_cadastro';
+$tbl_key = 'PRIMARY KEY DO BANCO';
 
 // colunas do banco
 $colunas = array(
-	array( 'db' => 'cod_cadastro', 'dt' => 0 ),
-	array( 'db' => 'dt_cadastro',  'dt' => 1 ),
-	array( 'db' => 'nm_cadastro',   'dt' => 2 ),
+	array( 'db' => 'CAMPO1', 'dt' => 0 ),
+	array( 'db' => 'CAMPO2',  'dt' => 1 ),
+	array( 'db' => 'CAMPO3',   'dt' => 2 ),
 	);
 
 require( 'ssp.class.php' );
@@ -25,3 +25,4 @@ require( 'ssp.class.php' );
 echo json_encode(
 	SSP::simple($_GET, $conn_banco, $tbl_banco, $tbl_key, $colunas)
 	);
+	?>
