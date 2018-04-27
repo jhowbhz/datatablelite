@@ -31,7 +31,7 @@
 		$('#tabela').DataTable( {
 			"processing": true,
 			"serverSide": true,
-			"ajax": "../data/json.php"
+			"ajax": "data/json.php"
 		} );
 	} );
 </script>
