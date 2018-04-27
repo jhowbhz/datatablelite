@@ -1,8 +1,8 @@
 <?php
 	///////////////////////////////////////////
-	// 		DataTable Lite 1.0 	 			//
-	//		Developer: Jhon Fallon.  		//
-	//		Site: fb.com/jhowbhz	 		//
+	// 		DataTable Lite 1.0 	//
+	//		Developer: Jhon Fallon. //
+	//		Site: fb.com/jhowbhz 	//
 	//////////////////////////////////////////
 
 ?>
